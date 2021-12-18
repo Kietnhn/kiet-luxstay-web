@@ -1,0 +1,108 @@
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid{
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid-full{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid-col{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100%;
+}
+.grid-col-5{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 20%;
+}
+.grid-col-5--2{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 40%;
+}
+.grid-col-4{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 25%;
+}
+.grid-col-3{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 33.33333%;
+}
+.grid-col-2{
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 50%;
+}
+@keyframes FadeIn{
+    from{
+        opacity: 0.8;
+    }to{
+        opacity: 1;
+    }
+}
+/* calender */
+.calender-nothing{
+    background-color: transparent !important;
+}
+.calender-lsmonth{
+    background-color: #f5f5f5 !important;
+    color: #ccc !important;
+}
+.calender-today{
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+/* btn */
+.btn-select{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #f65e39;
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+.btn-select:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 10px 14px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #777;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn-disable{
+    cursor: default;
+    background-color: rgba(245, 245, 245,0.9) !important;
+    color: rgba(119, 119, 119,0.9) !important;
+}
+/* body */
+
+.header-heading{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header-heading-description{
+    margin: 16px 0;
+    font-size: 1.5rem;
+}
